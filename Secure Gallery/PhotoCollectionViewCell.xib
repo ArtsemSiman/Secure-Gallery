@@ -32,7 +32,7 @@
             <connections>
                 <outlet property="image" destination="VfI-RQ-Snz" id="nx3-UV-x4B"/>
             </connections>
-            <point key="canvasLocation" x="132" y="62"/>
+            <point key="canvasLocation" x="131.8840579710145" y="61.607142857142854"/>
         </collectionViewCell>
     </objects>
 </document>

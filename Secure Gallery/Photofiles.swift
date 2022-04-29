@@ -8,27 +8,24 @@
 import Foundation
 import UIKit
 
-struct Image{
-    var image:UIImage
-}
 class ImageBase {
     
-    var images = [Image]()
+    var images = [UIImage?]()
     init() {
         setup()
     }
     
     func setup() {
-    let Im1 = Image(image: UIImage(named:"0")!)
-    let Im2 = Image(image: UIImage(named:"1")!)
-    let Im3 = Image(image: UIImage(named:"2")!)
-    let Im4 = Image(image: UIImage(named:"3")!)
-    let Im5 = Image(image: UIImage(named:"4")!)
-    let Im6 = Image(image: UIImage(named:"5")!)
-    let Im7 = Image(image: UIImage(named:"6")!)
-    let Im8 = Image(image: UIImage(named:"7")!)
-    let Im9 = Image(image: UIImage(named:"8")!)
-    let Im10 = Image(image: UIImage(named:"9")!)
-    self.images = [Im1, Im2, Im3, Im4, Im5, Im6, Im7, Im8, Im9, Im10]
+    let im1 = UIImage(named:"0")
+    let im2 = UIImage(named:"1")
+    let im3 = UIImage(named:"2")
+    let im4 = UIImage(named:"3")
+    let im5 = UIImage(named:"4")
+    let im6 = UIImage(named:"5")
+    let im7 = UIImage(named:"6")
+    let im8 = UIImage(named:"7")
+    let im9 = UIImage(named:"8")
+    let im10 = UIImage(named:"9")
+    self.images = [im1, im2, im3, im4, im5, im6, im7, im8, im9, im10]
 }
 }

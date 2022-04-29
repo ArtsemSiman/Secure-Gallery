@@ -24,7 +24,11 @@ class ViewController: UIViewController {
 
     @IBAction func enterButton(_ sender: Any) {
         if passwordText.text == "123" {
-            self.performSegue(withIdentifier: "openGallery", sender: self)
+            if let resultController = storyboard?.instantiateViewController(withIdentifier: "Photos") as? PhotoesViewController {
+                resultController.modalPresentationStyle = .fullScreen
+                navigationController?.viewControllers = [resultController]
+            }
+            
             checkPassowrd.alpha = 1
             
             
