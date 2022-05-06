@@ -113,7 +113,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="3rN-xI-EM4">
-                                <rect key="frame" x="0.0" y="44" width="390" height="766"/>
+                                <rect key="frame" x="0.0" y="64" width="390" height="746"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="2" minimumInteritemSpacing="2" id="3sr-CX-L1T">
                                     <size key="itemSize" width="120" height="120"/>
@@ -149,10 +149,9 @@
                                 </cells>
                             </collectionView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="fill" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="51O-O2-5bp">
-                                <rect key="frame" x="177" y="412" width="36.333333333333343" height="20"/>
+                                <rect key="frame" x="333.66666666666669" y="44" width="36.333333333333314" height="20"/>
                                 <color key="backgroundColor" systemColor="systemCyanColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="35" id="3YB-Gd-aOn"/>
                                     <constraint firstAttribute="height" constant="20" id="wTm-FS-PyV"/>
                                 </constraints>
                                 <state key="normal" title="Button"/>
@@ -169,11 +168,11 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="89K-QL-Esg" firstAttribute="trailing" secondItem="3rN-xI-EM4" secondAttribute="trailing" id="0JP-PJ-8Xi"/>
-                            <constraint firstItem="51O-O2-5bp" firstAttribute="centerY" secondItem="L3c-zZ-hzN" secondAttribute="centerY" id="Gxd-Da-EhV"/>
-                            <constraint firstItem="3rN-xI-EM4" firstAttribute="top" secondItem="89K-QL-Esg" secondAttribute="top" id="M37-jI-AqK"/>
+                            <constraint firstItem="51O-O2-5bp" firstAttribute="top" secondItem="89K-QL-Esg" secondAttribute="top" id="524-3A-cse"/>
+                            <constraint firstItem="89K-QL-Esg" firstAttribute="trailing" secondItem="51O-O2-5bp" secondAttribute="trailing" constant="20" id="Coq-p6-mc5"/>
+                            <constraint firstItem="3rN-xI-EM4" firstAttribute="top" secondItem="89K-QL-Esg" secondAttribute="top" constant="20" id="M37-jI-AqK"/>
                             <constraint firstItem="89K-QL-Esg" firstAttribute="bottom" secondItem="3rN-xI-EM4" secondAttribute="bottom" id="it6-Ed-ENz"/>
                             <constraint firstItem="3rN-xI-EM4" firstAttribute="leading" secondItem="89K-QL-Esg" secondAttribute="leading" id="jla-oS-oax"/>
-                            <constraint firstItem="51O-O2-5bp" firstAttribute="centerX" secondItem="L3c-zZ-hzN" secondAttribute="centerX" id="vY9-f4-5rA"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="ifz-Hb-eyy"/>
