@@ -122,7 +122,6 @@ private extension PhotoesViewController {
                 }
             }
         }
-        
     }
 }
 
