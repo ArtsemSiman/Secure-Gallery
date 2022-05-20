@@ -1,16 +1,24 @@
 PODS:
   - Kingfisher (7.2.1)
+  - Locksmith (4.0.0)
+  - SwiftKeychainWrapper (4.0.1)
 
 DEPENDENCIES:
   - Kingfisher (~> 7.2)
+  - Locksmith
+  - SwiftKeychainWrapper (~> 4.0)
 
 SPEC REPOS:
   trunk:
     - Kingfisher
+    - Locksmith
+    - SwiftKeychainWrapper
 
 SPEC CHECKSUMS:
   Kingfisher: 7c084bebf7d548c623ad41bcf765fb200efed369
+  Locksmith: e9bebbaaa4cee3c511bc358a44f843c3fe00e21f
+  SwiftKeychainWrapper: 807ba1d63c33a7d0613288512399cd1eda1e470c
 
-PODFILE CHECKSUM: 23c695986093d272165236038e52af28c0693bec
+PODFILE CHECKSUM: 0ddb279a8c3b0952c2628ebb0f2e1b079fa9af90
 
 COCOAPODS: 1.11.3

@@ -6,9 +6,9 @@
 //
 
 import UIKit
-import Kingfisher
 import SwiftUI
 import Alamofire
+
 
 class PhotoesViewController: UIViewController {
 

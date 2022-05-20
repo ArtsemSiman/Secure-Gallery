@@ -7,6 +7,7 @@ target 'Secure Gallery' do
 
   # Pods for Secure Gallery
 pod 'Kingfisher', '~> 7.2'
-
+pod 'SwiftKeychainWrapper', '~> 4.0'
+pod 'Locksmith'
 
 end
